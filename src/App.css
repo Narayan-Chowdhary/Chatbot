@@ -1,0 +1,75 @@
+.heading-fonts {
+  font-family: Inter;
+}
+
+.sub-heading-fonts {
+  font-family: Mukta !important;
+}
+.react-pdf__Page__canvas {
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .header_leftwrapper {
+    width: 310px !important;
+  }
+
+  .search_header {
+    width: 230px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_leftwrapper {
+    width: 180px !important;
+  }
+
+  .search_header {
+    width: 180px !important;
+  }
+
+  .profile_wrapper .user_name {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .profile_wrapper {
+    display: none;
+  }
+}
+
+main {
+  overflow-x: hidden;
+}
+
+.table_wrapper {
+  overflow-x: auto;
+}
+
+.chat {
+  max-width: 30vw;
+  word-wrap: break-word;
+}
+
+.clip-path {
+  clip-path: polygon(
+    40% 13%,
+    61% 26%,
+    98% 59%,
+    59% 45%,
+    38% 41%,
+    21% 51%,
+    4% 43%,
+    6% 24%,
+    22% 13%
+  );
+}
+
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+  min-height: 52px;
+  padding-right: 60px;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  margin: 28px;
+}
